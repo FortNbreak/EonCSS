@@ -1,0 +1,18 @@
+#authorized-apps-tab .children-2C96Ex {
+  counter-reset: section -1;
+  position: relative;
+}
+#authorized-apps-tab .children-2C96Ex > .authedApp-8q3NA9 {
+  counter-increment: section;
+}
+#authorized-apps-tab .children-2C96Ex::after {
+  counter-increment: section;
+  content: "Authorized Apps: "counter(section);
+  order: -1;
+  position: absolute;
+  color: var(--header-primary);
+  top: -44px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
