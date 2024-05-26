@@ -1,19 +1,19 @@
 /* Transparency For Settings */
 
 body,														/* body														*/
-#app-mount .applicationStore-2nk7Lo,						/* nitro													*/
+#app-mount .applicationStore__444b9,						/* nitro													*/
 #app-mount .shop-3sIaH8,									/* shop														*/
-#app-mount .containerSidenav-3qiKqP,						/* family control											*/
-#app-mount .pageWrapper-2PwDoS,								/* guilddiscovery											*/
+#app-mount .containerSidenav_c2b517,						/* family control											*/
+#app-mount .pageWrapper_c182d3,								/* guilddiscovery											*/
 #app-mount .pageWrapper-1x6lGh,								/* unihub													*/
-#app-mount .scrollerBase-1Pkza4,							/* scroller													*/
-#app-mount .standardSidebarView-E9Pc3j,						/* settings													*/
-#app-mount .contentRegion-3HkfJJ {							/* settings				content								*/
+#app-mount .scrollerBase_f742b2,							/* scroller													*/
+#app-mount .standardSidebarView__12528,						/* settings													*/
+#app-mount .contentRegion__08eba {							/* settings				content								*/
 	background: transparent;
 }
 
 
-#app-mount .sidebarRegion-1VBisG,							/* settings				sidebar								*/
+#app-mount .sidebarRegion__36437,							/* settings				sidebar								*/
 #app-mount .sidebar-_0OpfR {								/* sidebarlist			sidebar								*/
 	background-color: rgba(var(--transparencycolor), calc(0.2 * (var(--transparencyalpha) / (var(--transparencyalpha) + 0.00000000000000000000001))));
 }
