@@ -5,7 +5,7 @@
 
 /* ~~~~		3.		FUNNYSTUFF					~~~~ */
 
-html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
+html:only-child > head + body div.app_b1f720 > div.app_de4237::before {
 	content: var(--textisfunny) !important;
 	display: var(--version1_0_5, block) !important;
 	background-color: var(--bg-color-funny) !important;
