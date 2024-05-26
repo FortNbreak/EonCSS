@@ -1,11 +1,11 @@
-#authorized-apps-tab .children-2C96Ex {
+#authorized-apps-tab .children_aba8cb {
   counter-reset: section -1;
   position: relative;
 }
-#authorized-apps-tab .children-2C96Ex > .authedApp-8q3NA9 {
+#authorized-apps-tab .children_aba8cb > .authedApp__71a52 {
   counter-increment: section;
 }
-#authorized-apps-tab .children-2C96Ex::after {
+#authorized-apps-tab .children_aba8cb::after {
   counter-increment: section;
   content: "Authorized Apps: "counter(section);
   order: -1;
